@@ -3,11 +3,12 @@
 !.gitignore
 !wp-content/
 !database/
+!database/**
 
 # Dans wp-content, ignorer les caches et upgrades
 wp-content/cache/
 wp-content/upgrade/
 wp-content/uploads/cache/
 
-# Ne pas mettre wp-config.php
+# Ne pas mettre wp-config.php (contient tes infos sensibles)
 wp-config.php
