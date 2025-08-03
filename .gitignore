@@ -1,0 +1,12 @@
+# Ignorer tout sauf wp-content
+*
+!.gitignore
+!wp-content/
+
+# Dans wp-content, ignorer les caches et upgrades
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/cache/
+
+# Ne pas mettre wp-config.php
+wp-config.php
