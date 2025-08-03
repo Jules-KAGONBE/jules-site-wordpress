@@ -1,7 +1,8 @@
-# Ignorer tout sauf wp-content
+# Ignorer tout sauf wp-content et database
 *
 !.gitignore
 !wp-content/
+!database/
 
 # Dans wp-content, ignorer les caches et upgrades
 wp-content/cache/
